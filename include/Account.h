@@ -1,7 +1,9 @@
 #pragma once
 class Account {
  public:
-  Account(int id, int balance);
+    Account();
+
+    Account(int id, int balance);
   virtual ~Account();
 
   // Virtual to test.
