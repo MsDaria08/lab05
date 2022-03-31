@@ -11,7 +11,7 @@ jobs:
       - name: build
         shell: bash
         run: |
-          git submodule update --init --recursive
+          git submodule add https://github.com/google/googletest third-party/gtest
           cmake -B build
           cd build
           make
