@@ -50,17 +50,6 @@ TEST(Transaction, sum_check) {
 }
 
 
-TEST(Transaction, locked) {
-    Account John;
-    try {
-        John.Lock();
-        FAIL() << "expected error" << std::endl;
-    } catch(std::runtime_error& time) {
-        EXPECT_EQ(time.what(), std::string("already locked"));
-    } catch(...) {
-        FAIL() << "expected time error" << std::endl;
-    }
-}
 
 TEST(Transaction, change_balance) {
     Account John(173, 1000);
