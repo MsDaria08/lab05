@@ -6,6 +6,7 @@
 $ open https://github.com/google/googletest
 ```
 
+[![Coverage Status](https://coveralls.io/repos/github/MsDaria08/lab05/badge.svg)](https://coveralls.io/github/MsDaria08/lab05) 
 ## Tasks
 
 - [ ] 1. Создать публичный репозиторий с названием **lab05** на сервисе **GitHub**
