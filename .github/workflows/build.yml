@@ -29,6 +29,7 @@ jobs:
           cmake -B build
           cd build
           make
+          ./tests
           
       - name: install lcov
         run: |
