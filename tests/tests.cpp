@@ -4,6 +4,7 @@
 #include "Account.h"
 
 TEST(Transaction, gee_test) {
+    Account SBD();
     Account John(228, 101);
     Account James(1337, 0);
     Transaction transaction;
