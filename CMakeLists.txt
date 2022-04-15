@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(banking)
 
-option(BUILD_TESTS "Building tests" OFF)
-option(COVERAGE "Coverage" OFF)
+option(BUILD_TESTS "Building tests" ON)
+option(COVERAGE "Coverage" ON)
 
 add_library(${PROJECT_NAME} STATIC
         ${CMAKE_CURRENT_SOURCE_DIR}/banking/Account.cpp
